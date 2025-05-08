@@ -12,6 +12,7 @@
     "@html-polygon/react": "^0.1.4",
     "@material-tailwind/react": "^2.1.10",
     "@react-icons/all-files": "^4.1.0",
+    "@tailwindcss/postcss": "^4.1.5",
     "@types/react-slick": "^0.23.13",
     "apexcharts": "^4.5.0",
     "jspdf": "^3.0.1",
