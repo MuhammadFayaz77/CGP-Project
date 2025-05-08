@@ -47,7 +47,7 @@ function Frequently() {
             }`}
           >
             <h2
-              className={`md:text-[20px] py-2 text-[#333333]  duration-300 ${
+              className={`md:text-[20px] py-2 text-[#333333]  duration-300 w-[95%] ${
                 status[index] ? "font-semibold" : "font-light"
               }`}
             >

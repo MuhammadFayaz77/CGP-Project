@@ -27,14 +27,14 @@ function Disclaimers() {
           </h2>
           <p className="mb-2">
             We can not guarantee complete coverage of every single relevant
-            regulation, standard, and requirement that may apply to a certain
-            product or scenario, or that the information provided is free from
-            errors or is covering every single rule, option, exemption or other
+            regulation standard and requirement that may apply to a certain
+            product or scenario or that the information provided is free from
+            errors or is covering every single rule option, exemption or other
             information that may be applicable to a certain product or scenario.
           </p>
           <ol className="list-decimal pl-6">
             <li className="">
-              We do not claim that the summaries cover regulations/requirements
+              We do not claim that the summaries cover regulations requirements
               in their entirety.
             </li>
             <li>We only cover the items listed in these documents:</li>
@@ -56,10 +56,10 @@ function Disclaimers() {
           </h2>
           <p className="">
             We can not guarantee that the templates used to generate documents
-            are free from mistakes and are up to date, or that they are referred
+            are free from mistakes and are up to date or that they are referred
             to your specific product or scenario. Further, we do not claim to
-            provide templates for all documents/certificates in the EU or US or
-            to provide templates for all documents/certificates that can apply
+            provide templates for all documents certificates in the EU or US or
+            to provide templates for all documentscertificates that can apply
             to a certain product.
           </p>
         </div>
@@ -101,8 +101,8 @@ function Disclaimers() {
               the platform.
             </li>
             <li>
-              Note that not all news or updates result in platform updates, and
-              we do not guarantee that we 'catch' every single new or updated
+              Note that not all news or updates result in platform updates and
+              we do not guarantee that we catch every single new or updated
               compliance requirement.
             </li>
           </ol>
@@ -115,8 +115,8 @@ function Disclaimers() {
           <ol className="list-decimal pl-6 ">
             <li className="mb-2">
               The platform does not generally cover European national and US
-              state standards and regulations. Further, the platform does not
-              cover product standards, such as EN 71 or ASTM F963.
+              state standards and regulations. Further the platform does not
+              cover product standards such as EN 71 or ASTM F963.
             </li>
             <li className="mb-2">
               Technical problems can occur when creating, saving or downloading
@@ -130,7 +130,7 @@ function Disclaimers() {
               <Link href="/" className="underline text-[#7F96F3]">
                 Risk Disclosure
               </Link>{" "}
-              to learn more about the features of the Compliance Gate Platform,
+              to learn more about the features of the Compliance Gate Platform
               and their limitations and risks.
             </li>
           </ol>

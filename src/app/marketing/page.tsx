@@ -36,7 +36,7 @@ function AllCard() {
             alt="Picture of the author"
             className=" lg:left-[75%] left-[59%] absolute rotate-180 top-[65%] overflow-hidden  transform -translate-x-1/2 "
           />
-        <div className="flex  px-2 sm:flex-nowrap gap-2 sm:gap-4 w-[90%] lg:justify-between bg-[#F9F9F9] overflow-x-auto py-2">
+        <div className="flex  px-2 sm:flex-nowrap gap-2 sm:gap-4 w-[90%] lg:justify-between bg-[#F9F9F9] overflow-x-auto no-scrollbar py-2">
           {TabsArry.map((tab) => (
             <button
               key={tab.id}

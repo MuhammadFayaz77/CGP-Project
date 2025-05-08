@@ -1,4 +1,4 @@
-import { IoIosArrowRoundForward } from "react-icons/io";
+
 import Image from "next/image";
 const CustomerExperienceCard = ({
   image,
@@ -7,7 +7,7 @@ const CustomerExperienceCard = ({
  
   comment,
 }: {
-  image: any;
+  image: string;
 
   name: string;
  

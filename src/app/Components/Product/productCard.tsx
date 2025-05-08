@@ -16,7 +16,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
 }) => {
   const [liked, setLiked] = useState(false);
   return (
-    <div className="relative bg-[#FFFFFF] rounded shadow-md p-4 flex flex-col items-center w-full max-w-[90%] sm:max-w-[180px] mx-auto transition-all duration-300">
+    <div className="relative  bg-[#FFFFFF] rounded shadow-md p-4 flex flex-col items-center w-full max-w-[90%] sm:max-w-[180px] mx-auto transition-all duration-300">
       <div
         className={` ${style} absolute left-0  rounded-tr-sm bg-blue-600 text-white text-xs font-semibold px-3 py-0.5 `}
       >

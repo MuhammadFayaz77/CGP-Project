@@ -14,7 +14,7 @@ export const TeamArry = [
       "Pop music lover, seeks joy and exciting pop concerts",
   },   {
     image: "/Images/team3.svg",
-  title: "John Vinod Khiatani ",
+  title: "John Vinod  ",
   postion: "Research",
   description:
     "Bookworm, creative software developer with precision",

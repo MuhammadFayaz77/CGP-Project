@@ -51,7 +51,7 @@ export default function Subscription() {
               most={items.most}
               icon={items.icon}
               pakg={items.pakg}
-              id={items.id}
+        
               button={items.button}
               style={items.style}
               price={items.price}

@@ -6,7 +6,7 @@ const ScoCard = ({
   description,
   list,
 }: {
-  image: any;
+  image: string;
   description: string;
   list: string[];
 }) => {

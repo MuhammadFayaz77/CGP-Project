@@ -11,10 +11,10 @@ function Sco() {
   const Slidersettings = {
     dots: true,
     beforeChange: ( next) => setActiveSlide(next),
-    customPaging: (i) => (
+    customPaging: (index) => (
       <div
-        className={`w-3 h-3 rounded-full transition-all duration-300 ${
-          i === activeSlide ? "bg-[#46818F] w-5" : "bg-gray-400"
+        className={`w-3 h-3    rounded-full transition-all duration-350 ${
+          index === activeSlide ? "bg-[#46818F]  w-6" : "bg-gray-400 "
         }`}
       />
     ),

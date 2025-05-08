@@ -5,7 +5,7 @@ import Services from "./Components/Services";
 import ResearchTool from "./Components/ResearchTool";
 import Footer from "./Components/Footer/Index";
 import AskQuestions from "./Components/askQuestions";
-import App from "./Components/Marque";
+
 import Marque from "./Components/Marque";
 import Product from "./Components/Product/Index";
 import ProductSupportNotice from "./Components/Product/ProductSupportNotice";
@@ -20,13 +20,19 @@ import Video from "./Components/video";
 import Disclaimers from "./Components/Disclaimers";
 import AllCard from "./marketing/page";
 import AllCardSco from "./sco/page";
-import AcademyChat from "./Components/chatbot/bot";
+
+import ComplianceChecklist from "./sco/checklists";
+
+import Plan from "./Components/plan";
+import PaymentMethods from "./Components/plan/Payment";
 export default function Home() {
   return (
    <>
-  
+ 
    <Header/>
    <FindUs/>
+   
+   <ComplianceChecklist/> 
    <Services/>
    <ResearchTool/>
    <AskQuestions/>
@@ -35,22 +41,21 @@ export default function Home() {
    <ProductSupportNotice/>
    <ComplianceInfo/>
    <Platform/>
+   <Plan/>
+   <PaymentMethods/> 
+   <Disclaimers/>
+   <Video/>
+   <Documentation/>
+   <Team/>
    <Frequently/>
    <AllCard/>
    <AllCardSco/> 
    <Content/>
    <Select/>
-   <Team/>
-<Documentation/>
-<Video/>
-<Disclaimers/>
+ 
 
-
-{/* <PaymentMethods/> */}
-{/* <TabsDemo/> */}
-   {/* <Subscription/>     */}
  <Footer/>
- {/* <AcademyChat/>  */}
+
    </>
   );
 }

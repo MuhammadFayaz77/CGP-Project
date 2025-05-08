@@ -1,13 +1,11 @@
 "use client";
 import { useState } from "react";
-
-
 export const ServicesCard = ({
   icon,
   title,
   description,
 }: {
-  icon: string; 
+  icon: string;
   title: string;
   description: string;
 }) => {
@@ -25,7 +23,7 @@ export const ServicesCard = ({
           <h2 className="text-lg font-semibold text-gray-900 whitespace-pre-line">
             {title}
           </h2>
-         
+
           <p className="text-sm text-[#7A8088] mt-12">
             {isExpanded ? description : truncatedDescription}
           </p>

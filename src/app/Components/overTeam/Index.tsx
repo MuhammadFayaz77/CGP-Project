@@ -6,7 +6,7 @@ import { IoMdArrowForward } from "react-icons/io";
 import { RiTeamLine } from "react-icons/ri";
 import { FaCircleArrowRight } from "react-icons/fa6";
 export default function Team() {
-    
+
   return (
     <div className="flex flex-col items-center justify-center bg-[#F9F9F9] py-20">
       <div className="w-[85%] flex flex-col lg:flex-row justify-between items-start gap-8 mb-12">
@@ -27,7 +27,7 @@ export default function Team() {
           </p>
         </div>
         <div className="flex gap-2  lg:mt-10 flex-wrap">
-          <button className="px-2 py-2 rounded-lg hover:bg-[#46818F]  text-black text-[12px] hover:text-white flex items-center gap-2 transition-transform duration-300 transform hover:scale-105  ">
+          <button  className="px-2 py-2 rounded-lg hover:bg-[#46818F]  text-black text-[12px] hover:text-white flex items-center gap-2 transition-transform duration-300 transform hover:scale-105  ">
             Get Started <IoMdArrowForward />
           </button>
           <button className="px-2 py-2 rounded-lg hover:bg-[#46818F]  text-black   text-[12px] hover:text-white flex items-center gap-2 transition-transform duration-300 transform hover:scale-105 ">
@@ -35,7 +35,7 @@ export default function Team() {
           </button>
         </div>
       </div>
-      <div className="lg:max-w-[70%] grid-cols-1 md:grid-cols-3  xs:grid-cols-2 grid  sm:grid-cols-2 lg:grid-cols-4 md:px-5 lg:px-0 px-2 mx-auto lg:gap-0 md:gap-4 gap-2">
+      <div className="lg:max-w-[70%] grid-cols-1 md:grid-cols-3  xs:grid-cols-2 grid  sm:grid-cols-2 lg:grid-cols-4 md:px-5 lg:px-0 px-2 mx-auto lg:gap-0 md:gap-4 gap-2 ">
         {TeamArry.map((items, index) => (
           <TeamCard
             key={index}

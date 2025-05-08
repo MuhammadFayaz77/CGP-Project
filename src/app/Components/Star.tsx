@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import { FaStar } from "react-icons/fa6";
+
+import { IoStarSharp } from "react-icons/io5";
 
 export default function StarRate() {
   const [rating, setRating] = useState(null);
@@ -18,9 +19,9 @@ export default function StarRate() {
               onClick={() => setRating(currentRate)}
               style={{ display: "none" }}
             />
-            <FaStar
+            <IoStarSharp 
               size={20}
-              color={currentRate <= rating ? "yellow" : " Black  "}
+              color={currentRate <= rating ? "#FFD700" : " #D9D9D9 "}
               style={{ cursor: "pointer" }}
             />
           </label>

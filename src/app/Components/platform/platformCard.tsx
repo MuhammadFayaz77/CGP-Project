@@ -16,7 +16,7 @@ export function PlatformCard({
   points?: string[];
   option: string;
   details?: string[];
-  yes?: any;
+  yes?: string;
 }) {
   return (
     <motion.div
@@ -60,7 +60,7 @@ export function PlatformCard({
                     className=" w-[15px] h-[15px] mt-1"
                   />
 
-                  <span className="text-[#4E4E4E] text-base">{points}</span>
+                  <span className="text-[#4E4E4E] text-">{points}</span>
                 </span>
               </li>
             ))}

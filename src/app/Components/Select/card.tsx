@@ -5,7 +5,7 @@ export function SelectCard({
   title,
   list,
 }: {
-  number: any;
+  number?: string;
   title: string;
   list: string[];
 }) {

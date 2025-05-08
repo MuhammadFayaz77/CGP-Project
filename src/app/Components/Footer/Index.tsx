@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
-import { LuSend } from "react-icons/lu";
+
 import {
   FaFacebookF,
   FaLinkedin,
@@ -50,7 +49,7 @@ const Footer = () => {
             <h3 className="font-bold text-[#170F49] text-lg mb-4 ">Product</h3>
             <div className=" text-[#0000008C]">
               {ProductArry.map((items, index) => (
-                <FooterCard key={index} heading={items.heading} />
+                <FooterCard key={index} heading={items.heading}  href={items.href} />
               ))}
             </div>
           </div>
@@ -59,7 +58,7 @@ const Footer = () => {
             <h3 className="font-bold text-[#170F49] text-lg mb-4 ">Company</h3>
             <div className=" text-[#0000008C]">
               {CompanyArry.map((items, index) => (
-                <FooterCard key={index} heading={items.heading} />
+                <FooterCard key={index} heading={items.heading}  href={items.href} />
               ))}
             </div>
           </div>
@@ -67,7 +66,7 @@ const Footer = () => {
             <h3 className="font-bold  text-[#170F49] text-lg mb-4">Support</h3>
             <div className=" text-[#0000008C]">
               {SupportArray.map((items, index) => (
-                <FooterCard key={index} heading={items.heading} />
+                <FooterCard key={index} heading={items.heading} href={items.href} />
               ))}
             </div>
           </div>

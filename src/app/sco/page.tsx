@@ -29,7 +29,7 @@ function AllCardSco() {
         </div>
         <div className="w-[90%] mx-auto bg-white shadow-md  rounded-2xl">
           {/* Tabs Section */}
-          <div className="flex overflow-x-auto sm:flex-wrap gap-6 lg:gap-24 px-9 rounded-lg py-4 bg-white">
+          <div className="flex overflow-x-auto no-scrollbar gap-12 lg:gap-24 px-9 rounded-lg py-4 bg-white">
             {TabsArry.map((tab) => (
               <button
                 key={tab.id}
@@ -37,9 +37,7 @@ function AllCardSco() {
                 className={`font-medium text-sm focus:outline-none whitespace-nowrap ${
                   activeTab === tab.id
                     ? "text-[#46818F] transform scale-105 transition-transform duration-300"
-                    : "text-[#4C4C4CD1]"
-                }`}
-              >
+                    : "text-[#4C4C4CD1]" }`}>
                 <div className="flex items-center flex-col">
                   <FaUsersCog size={30} />
                   <span>{tab.title}</span>
@@ -53,8 +51,7 @@ function AllCardSco() {
             {TabsArry.map((tab) => (
               <div
                 key={tab.id}
-                className={activeTab === tab.id ? "block" : "hidden"}
-              >
+                className={activeTab === tab.id ? "block" : "hidden"} >
                 {tab.content}
               </div>
             ))}

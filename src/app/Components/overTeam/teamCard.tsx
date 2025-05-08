@@ -27,12 +27,12 @@ export const TeamCard = ({
             className="mb-6 rounded-full w-full h-full object-cover transition-transform duration-300 transform hover:scale-105    "
           />
         </div>
-        <h2 className="text-lg font-semibold text-gray-900 whitespace-pre-line">
+        <h2 className="text-lg  font-semibold text-gray-900   whitespace-pre-line">
           {title}
         </h2>
         
         <p className="text-sm text-[#46818F]">{postion}</p>
-        <p className="text-[14px] text-[#7A8088] text-center ">{description}</p>
+        <p className="text-[14px] text-[#7A8088] text-center min-h-[70px] ">{description}</p>
         <div className="flex gap-2 mt-2 text-[#ACAEB4]  text-[20px] ">
           <span className=" hover:text-[#46818F]  ">
             {" "}

@@ -1,5 +1,4 @@
-import { FaBoxes } from "react-icons/fa";
-import { FaFileInvoiceDollar, FaGavel } from "react-icons/fa6";
+
 import { TiWorld } from "react-icons/ti";
 import { MdChecklist } from "react-icons/md";
 import { TbChecklist } from "react-icons/tb";

@@ -6,9 +6,9 @@ export default function ResearchTool() {
   return (
     <div className="bg-[#F9F9F9] text-black flex flex-col lg:flex-row lg:pt-4">
       <div className="flex flex-col justify-center items-center w-full lg:w-1/2 p-10 lg:relative  ">
-        <h1 className="text-4xl lg:text-4xl lg:text-start text-center font-bold lg:px-12">Competitor SEO/PPC Research Tool</h1>
+        <h1 className="text-4xl lg:text-4xl lg:text-start text-center font-bold lg:px-12">Competitor SEO PPC Research Tool</h1>
         <p className="text-sm py-8 text-center lg:px-12 lg:text-start">
-          If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text 
+          If you are going to use a passage of Lorem Ipsum you need to be sure there isnt anything embarrassing hidden in the middle of text 
         </p>
         <div className="flex flex-col md:flex-row gap-4 w-full  lg:absolute lg:left-[13.1%]  bottom-[20%] ">
           <input

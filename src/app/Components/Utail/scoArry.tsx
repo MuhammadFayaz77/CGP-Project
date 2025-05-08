@@ -1,4 +1,4 @@
-import { list } from "@material-tailwind/react";
+
 
 export const ScoArry = [
   {

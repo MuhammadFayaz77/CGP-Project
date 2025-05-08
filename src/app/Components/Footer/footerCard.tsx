@@ -1,18 +1,19 @@
 import Link from "next/link";
-import Image from "next/image";
+
 const FooterCard = ({
   heading,
-  icon,
 
+  href
 }: {
-  heading: any;
-  icon?: string;
+  heading: string;
+
+  href?:string;
 
 }) => {
   return (
     <>
       <div className=" py-1 text-[#0000008C] ">
-        <Link href="/dashboard">{heading}</Link>
+        <Link href={href}>{heading}</Link>
 
        
       </div>

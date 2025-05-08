@@ -3,7 +3,7 @@ import Image from "next/image";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 const SubscriptionCard= ({
-  id,
+  
   Popular,
   time,
   icon,
@@ -17,16 +17,16 @@ const SubscriptionCard= ({
   bg,
   most,
 }: {
-  id: string;
+
   most?:string;
   time:string;
   Popular?:string;
   pakg: string;
   button:string;
-  icon: any;
+  icon: string;
   style:string; 
   price: string;
-  current: any;
+  current: string;
   bg:string;
   description: string;
   features: string[];

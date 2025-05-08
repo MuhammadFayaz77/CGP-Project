@@ -92,7 +92,7 @@ export default function FindUs() {
         </div>
       </div>
 
-      <div className="w-full bg-[#F9F9F9] py-10 lg:pt-20">
+      <div className="w-full bg-[#F9F9F9] py-10 lg:pt-20 ">
         <Highlights />
       </div>
     </div>

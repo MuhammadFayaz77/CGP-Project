@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { BackpackIcon, CheckCircle, CircleCheck } from "lucide-react";
+
 import { FaCircleCheck } from "react-icons/fa6";
 export default function ProductSupportNotice() {
   return (
@@ -24,7 +24,7 @@ export default function ProductSupportNotice() {
         only covers the items listed in the Monthly Review Methodology documents
         linked below:
       </p>
-      <div className="flex flex-wrap justify-center items-center lg:gap-16 mt-6 gap-4">
+      <div className="flex flex-wrap lg:justify-center lg:items-center lg:gap-16 mt-6 gap-4">
         <span className="flex gap-2  text-lg items-center justify-center">
           {" "}
           <FaCircleCheck color="#46818F" size={25} className="" />
@@ -39,9 +39,10 @@ export default function ProductSupportNotice() {
           <FaCircleCheck
             color="#46818F"
             size={25}
-            className=""
+            className=" "
             strokeOpacity={32}
             strokeWidth={1.0}
+            
           />
           European Union
         </span>

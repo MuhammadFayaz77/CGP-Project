@@ -5,11 +5,11 @@ import { useRef } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { MarketingArray } from "../Components/Utail/marketing";
-import Image from "next/image";
+
 
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import MarketingCard from "./MarketingCard";
-import { buffer } from "stream/consumers";
+
 
 function Marketing() {
   const sliderRef = useRef<Slider>(null);

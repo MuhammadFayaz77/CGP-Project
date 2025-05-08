@@ -42,7 +42,7 @@ const cardData = [
 
 export default function Platform() {
   return (
-    <div className="bg-[#2E2E2E] py-16 px-4 text-center">
+    <div className="bg-[#2E2E2E]   py-16 px-4 text-center">
       <h2 className="text-2xl md:text-3xl font-semibold text-white mb-4">
         How is this platform different?
       </h2>

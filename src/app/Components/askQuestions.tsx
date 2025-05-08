@@ -3,12 +3,8 @@ import { IoCopyOutline } from "react-icons/io5";
 import Image from "next/image";
 import { useState } from "react";
 import { GoChevronDown } from "react-icons/go";
-import { button } from "@material-tailwind/react";
 export default function AskQuestions() {
-  const [textToCopy, setTextToCopy] = useState(
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-  );
-  const [inputValue, setInputValue] = useState('Massage copy text here...');
+  const [inputValue, setInputValue] = useState("Massage copy text here...");
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
@@ -20,15 +16,15 @@ export default function AskQuestions() {
   };
   return (
     <div className="flex relative flex-col items-center justify-center px-4 pt-12 pb-6 bg-[#F9F9F9]   text-black  ">
-           <div className="absolute  lg:block hidden  lg:top-[57%] lg:left-[77%]  top-[50%] ">
-                <Image
-                  src="/Images/line.svg"
-                  alt="Picture of the author"
-                  width={500}
-                  height={500}
-                  className="w-full lg:h-[400px] h-[100px] object-cover  "
-                  />
-              </div>
+      <div className="absolute  lg:block hidden  lg:top-[57%] lg:left-[77%]  top-[50%] ">
+        <Image
+          src="/Images/line.svg"
+          alt="Picture of the author"
+          width={500}
+          height={500}
+          className="w-full lg:h-[400px] h-[100px] object-cover  "
+        />
+      </div>
       <div className="text-center max-w-xl w-full">
         <h1 className="text-xl sm:text-2xl md:text-4xl font-semibold">
           Ask Questions to your personal compliance assistant
@@ -76,25 +72,32 @@ export default function AskQuestions() {
           </label>
 
           <div className="flex border shadow-[0px_0px_2px_1px_#00000024]  border-gray-300  border-t-8 border-t-[#46818F] flex-col gap-2 bg-white  rounded-lg p-2.5">
-            <textarea 
-               value={inputValue}
-               onChange={(e) => setInputValue(e.target.value)}
+            <textarea
+              value={inputValue}
+              onChange={(e) => setInputValue(e.target.value)}
               onClick={handleCopy}
-           
               className="  focus:outline-none resize-none text-gray-900 text-sm rounded-md w-full h-48 p-2"
               placeholder="Write here...."
             ></textarea>
 
             <div className="flex justify-end ">
-              <button type="button" onClick={handleCopy} className=" gap-2  p-2 flex text-[#46818F] rounded-md">
+              <button
+                type="button"
+                onClick={handleCopy}
+                className=" gap-2  p-2 flex text-[#46818F] rounded-md"
+              >
                 <IoCopyOutline size={20} />
-                {copied ? 'Copied!' : ' text Copy'}
+                {copied ? "Copied!" : " text Copy"}
               </button>
             </div>
           </div>
         </div>
       </form>
-      <p className="lg:max-w-[77%]  text-lg mt-16" >The Compliance Assistant allows you to ask questions and receive answers based on what’s written in the  actual product regulations. Think of it as having a conversation with the regulation text itself.</p>
+      <p className="lg:max-w-[77%]  text-lg mt-16">
+        The Compliance Assistant allows you to ask questions and receive answers
+        based on what’s written in the actual product regulations. Think of it
+        as having a conversation with the regulation text itself.
+      </p>
     </div>
   );
 }
