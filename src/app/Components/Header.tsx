@@ -52,7 +52,7 @@ export default function Header() {
           </span>
         </button>
         {isMenuOpen && (
-          <div className="absolute top-full left-[60%] right-0  text-black bg-[#F9F9F9] rounded-lg shadow-lg mt-2 py-4 z-50 md:hidden">
+          <div className="absolute top-full lg:left-[60%] right-0  text-black bg-[#F9F9F9] rounded-lg shadow-lg mt-2 py-4 z-50 md:hidden">
             <div className="flex flex-col  px-6">
               <form>
                 <select 
