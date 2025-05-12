@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material-tailwind/react": "^2.1.10",
     "@react-icons/all-files": "^4.1.0",
     "framer-motion": "^12.10.4",
     "jspdf": "^3.0.1",

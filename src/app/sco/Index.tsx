@@ -1,6 +1,6 @@
 "use client";
 import Slider from "react-slick";
-import { useRef, useState } from "react";
+import { SetStateAction, useRef, useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ScoArry } from "../Components/Utail/scoArry";
@@ -10,8 +10,8 @@ function Sco() {
   const sliderRef = useRef<Slider>(null);
   const Slidersettings = {
     dots: true,
-    beforeChange: ( next) => setActiveSlide(next),
-    customPaging: (index) => (
+    beforeChange: ( next: SetStateAction<number>) => setActiveSlide(next),
+    customPaging: (index: number) => (
       <div
         className={`w-3 h-3    rounded-full transition-all duration-350 ${
           index === activeSlide ? "bg-[#46818F]  w-6" : "bg-gray-400 "
