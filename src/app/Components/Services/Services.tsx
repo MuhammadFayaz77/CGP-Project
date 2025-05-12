@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from 'next/image'
 export const ServicesCard = ({
   icon,
   title,
@@ -19,7 +20,12 @@ export const ServicesCard = ({
     <div className="bg-[#F9F9F9] ">
       <div className="flex flex-col justify-between bg-[#FFFFFF]  rounded-2xl shadow-md p-6 w-full text-left">
         <div>
-          <img src={icon} alt="icon" className="w-16 h-16 mb-4" />
+         <Image
+      src={icon}  className="w-16 h-16 mb-4"
+      width={50}
+      height={50}
+     alt="icon"
+    />
           <h2 className="text-lg font-semibold text-gray-900 whitespace-pre-line">
             {title}
           </h2>

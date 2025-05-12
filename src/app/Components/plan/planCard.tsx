@@ -8,7 +8,7 @@ interface PlanCardProps {
   description: string;
   features: string[];
   button: string;
-  bg:string
+  bg?:string;
   highlighted?: boolean;
 }
 

@@ -29,26 +29,27 @@ export default function ComplianceInfo() {
   return (
     <div className="relative bg-[#F9F9F9]  overflow-hidden py-16 px-4 text-center ">
       <svg
-        className="absolute   lg:top-[-10%] lg:left-[-1%]  hidden lg:block  "
-        width="290"
-        height="430"
-        viewBox="0 0 247 471"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7.7036 0.467545C-36.1467 132.365 151.16 94.0712 48.2585 412.81"
-          stroke="#46818F"
-          stroke-width="0.7"
-          stroke-dasharray="7 7"
-        />
-        <path
-          d="M174.704 58.4675C130.853 190.365 318.16 152.071 215.258 470.81"
-          stroke="#46818F"
-          stroke-width="0.6"
-          stroke-dasharray="7 7"
-        />
-      </svg>
+  className="absolute hidden lg:block lg:top-[-10%] lg:left-[-1%]"
+  width="290"
+  height="430"
+  viewBox="0 0 247 471"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M7.7036 0.467545C-36.1467 132.365 151.16 94.0712 48.2585 412.81"
+    stroke="#46818F"
+    strokeWidth="0.7"
+    strokeDasharray="7 7"
+  />
+  <path
+    d="M174.704 58.4675C130.853 190.365 318.16 152.071 215.258 470.81"
+    stroke="#46818F"
+    strokeWidth="0.6"
+    strokeDasharray="7 7"
+  />
+</svg>
+
 
       <h2 className="text-2xl md:text-3xl font-semibold text-[#2E2E2E] mb-4">
         Why does product compliance matter?
@@ -72,8 +73,8 @@ export default function ComplianceInfo() {
       >
         <path
           opacity="0.26"
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M150.026 1.67336C239.509 -5.18728 345.715 18.3658 370.757 104.547C394.635 186.724 306.117 245.681 234.571 292.632C176.784 330.552 104.384 356.678 48.4833 316.028C-7.36487 275.417 -7.64771 197.641 13.5779 131.932C34.9467 65.7784 80.711 6.98777 150.026 1.67336Z"
           fill="#46818F"
         />

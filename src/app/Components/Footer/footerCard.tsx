@@ -3,17 +3,17 @@ import Link from "next/link";
 const FooterCard = ({
   heading,
 
-  href
+  ref
 }: {
   heading: string;
 
-  href?:string;
+  ref:string;
 
 }) => {
   return (
     <>
       <div className=" py-1 text-[#0000008C] ">
-        <Link href={href}>{heading}</Link>
+        <Link href={ref}>{heading}</Link>
 
        
       </div>

@@ -1,4 +1,3 @@
-
 import Header from "./Components/Header";
 import FindUs from "./Components/Hero/findUs";
 import Services from "./Components/Services";
@@ -27,35 +26,31 @@ import Plan from "./Components/plan";
 import PaymentMethods from "./Components/plan/Payment";
 export default function Home() {
   return (
-   <>
- 
-   <Header/>
-   <FindUs/>
-   
-   <ComplianceChecklist/> 
-   <Services/>
-   <ResearchTool/>
-   <AskQuestions/>
-   <Marque/>
-   <Product/>
-   <ProductSupportNotice/>
-   <ComplianceInfo/>
-   <Platform/>
-   <Plan/>
-   <PaymentMethods/> 
-   <Disclaimers/>
-   <Video/>
-   <Documentation/>
-   <Team/>
-   <Frequently/>
-   <AllCard/>
-   <AllCardSco/> 
-   <Content/>
-   <Select/>
- 
+    <>
+      <Header />
+      <FindUs />
+      <ComplianceChecklist />
+      <Services />
+      <ResearchTool />
+      <AskQuestions />
+      <Marque />
+      <Product />
+      <ProductSupportNotice />
+      <ComplianceInfo />
+      <Platform />
+      <Plan />
+      <PaymentMethods />
+      <Disclaimers />
+      <Video />
+      <Documentation />
+      <Team />
+      <Frequently />
+      <AllCard />
+      <AllCardSco />
+      <Content />
+      <Select />
 
- <Footer/>
-
-   </>
+      <Footer />
+    </>
   );
 }

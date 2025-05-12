@@ -46,7 +46,7 @@ export default function Platform() {
       <h2 className="text-2xl md:text-3xl font-semibold text-white mb-4">
         How is this platform different?
       </h2>
-      <p className="text-sm md:text-base text-c max-w-4xl mx-auto text-[#FFFFFF8F]">
+      <div className="text-sm md:text-base text-c max-w-4xl mx-auto text-[#FFFFFF8F]">
         Hiring consultants to manage the compliance process for you can set you
         back
         <span className="text-white font-semibold">
@@ -60,7 +60,7 @@ export default function Platform() {
           affordable alternative
         </span>
         that can simplify many of the steps of the process.
-      </p>
+      </div>
 
       <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
         {cardData.map((card, index) => (

@@ -4,7 +4,8 @@ import React, { useState } from "react";
 import { IoStarSharp } from "react-icons/io5";
 
 export default function StarRate() {
-  const [rating, setRating] = useState(null);
+  const [rating, setRating] = useState<number | null>(null);
+
 
   return (
     <div className="flex  gap-1">
@@ -21,7 +22,7 @@ export default function StarRate() {
             />
             <IoStarSharp 
               size={20}
-              color={currentRate <= rating ? "#FFD700" : " #D9D9D9 "}
+              color={currentRate <= (rating ?? 0) ? "#FFD700" : " #D9D9D9 "}
               style={{ cursor: "pointer" }}
             />
           </label>

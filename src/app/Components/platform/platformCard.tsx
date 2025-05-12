@@ -13,10 +13,10 @@ export function PlatformCard({
 }: {
   image: string;
   title: string;
-  points?: string[];
+  points: string[];
   option: string;
-  details?: string[];
-  yes?: string;
+  details: string[];
+  yes: string;
 }) {
   return (
     <motion.div
@@ -46,7 +46,7 @@ export function PlatformCard({
             {title}
           </h3>
           <ul className="mt-2 space-y-1 ">
-            {points.map((points, i) => (
+            {points?.map((points, i) => (
               <li
                 key={i}
                 className="text-base justify-start items-center  flex  "
@@ -65,9 +65,9 @@ export function PlatformCard({
               </li>
             ))}
           </ul>
-          <p>
+          <div>
             <ul className="mt-2 space-y-1">
-              {details.map((detail, i) => (
+              {details?.map((detail, i) => (
                 <li key={i} className="text-[13px] text-[#4E4E4E]">
                   <span>
                     <span className="text-[#46818F] font-semibold">
@@ -79,7 +79,7 @@ export function PlatformCard({
                 </li>
               ))}
             </ul>
-          </p>
+          </div>
         </div>
       </div>
     </motion.div>

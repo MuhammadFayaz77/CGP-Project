@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Link from "next/link";
 
@@ -27,21 +28,22 @@ const Footer = () => {
             </p>
 
             <div className=" flex items-center gap-4 mb-4">
-              <span>
+              <Link href="https://fackbook.com/">
+             
                 <FaFacebookF size={20} color="#46818F" />
-              </span>
-              <span>
+              </Link>
+              <Link href="https://instagram.com/">
                 <IoLogoInstagram size={20} color="#46818F" />
-              </span>
-              <span>
+              </Link>
+              <Link href="https://x.com">
                 <FaTwitter size={20} color="#46818F" />
-              </span>
-              <span>
+              </Link>
+              <Link href="https://www.linkedin.com/">
                 <FaLinkedin size={20} color="#46818F" />
-              </span>
-              <span>
+              </Link>
+              <Link href="https://www.youtube.com">
                 <FaYoutube size={20} color="#46818F" />
-              </span>
+              </Link>
             </div>
           </div>
 
@@ -49,7 +51,7 @@ const Footer = () => {
             <h3 className="font-bold text-[#170F49] text-lg mb-4 ">Product</h3>
             <div className=" text-[#0000008C]">
               {ProductArry.map((items, index) => (
-                <FooterCard key={index} heading={items.heading}  href={items.href} />
+                <FooterCard key={index} heading={items.heading}  ref={items.href} />
               ))}
             </div>
           </div>
@@ -58,7 +60,7 @@ const Footer = () => {
             <h3 className="font-bold text-[#170F49] text-lg mb-4 ">Company</h3>
             <div className=" text-[#0000008C]">
               {CompanyArry.map((items, index) => (
-                <FooterCard key={index} heading={items.heading}  href={items.href} />
+                <FooterCard key={index} heading={items.heading}  ref={items.href} />
               ))}
             </div>
           </div>
@@ -66,7 +68,7 @@ const Footer = () => {
             <h3 className="font-bold  text-[#170F49] text-lg mb-4">Support</h3>
             <div className=" text-[#0000008C]">
               {SupportArray.map((items, index) => (
-                <FooterCard key={index} heading={items.heading} href={items.href} />
+                <FooterCard key={index} heading={items.heading} ref={items.href} />
               ))}
             </div>
           </div>

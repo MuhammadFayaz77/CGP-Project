@@ -33,8 +33,8 @@ function Frequently() {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-       <path d="M248.613 3.30983C292.463 135.207 105.157 96.9135 208.058 415.652" stroke="#46818F" stroke-dasharray="7 7"/>
-       <path d="M81.6132 61.3098C125.463 193.207 -61.843 154.914 41.0583 473.652" stroke="#46818F" stroke-dasharray="7 7"/>
+       <path d="M248.613 3.30983C292.463 135.207 105.157 96.9135 208.058 415.652" stroke="#46818F" strokeDasharray="7 7"/>
+       <path d="M81.6132 61.3098C125.463 193.207 -61.843 154.914 41.0583 473.652" stroke="#46818F" strokeDasharray="7 7"/>
       </svg>
       
 
