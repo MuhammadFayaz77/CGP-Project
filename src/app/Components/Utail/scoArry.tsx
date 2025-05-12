@@ -2,7 +2,7 @@
 
 export const ScoArry = [
   {
-    Image: "/images/img.svg",
+    Image: "/Images/img.svg",
     list: [
       "Covered millions of national & local keywords",
       "Analyze any domain’s backlink profiles",
@@ -12,7 +12,7 @@ export const ScoArry = [
     description: "Grow organic traffic with our complete and easy SEO tools & workflow",
   },
   {
-    Image: "/images/img.svg",
+    Image: "/Images/img.svg",
     list: [
       "Mncover millions of national & local keyworded",
       "Analyze any domain’s backlink profileo",
@@ -22,7 +22,7 @@ export const ScoArry = [
     description: "Grow organic traffic with our complete and easy SEO tools & workflow",
   },
   {
-    Image: "/images/img.svg",
+    Image: "/Images/img.svg",
     list: [
       "Fcover millions of national & local keyworded",
       "Bnalyze any domain’s backlink profileo",
