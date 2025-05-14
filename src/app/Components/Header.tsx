@@ -1,5 +1,5 @@
 "use client";
-
+import Link from 'next/link'
 import { useState } from 'react';
 import { CiMenuBurger } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
@@ -24,8 +24,8 @@ export default function Header() {
               <option value="account">Account</option>
             </select>
           </form>
-          <a className="hover:text-gray-900">Pricing</a>
-          <a className="hover:text-gray-900">FAQs</a>
+           <Link href="/" className="hover:text-gray-900 hover:border-b-2">Pricing</Link>
+         <Link href="/Frequently" className="hover:text-gray-900 hover:border-b-2">FAQs</Link>
           <form>
             <select    
               className="py-1 focus:outline-none focus:ring-0 focus:border-transparent">
@@ -65,7 +65,7 @@ export default function Header() {
                 </select>
               </form>
 
-              <a className="hover:text-gray-900 py-2">Pricing</a>
+               <Link href="/Frequently" className="hover:text-gray-900 py-2">Pricing</Link>
               <a className="hover:text-gray-900 py-2 ">FAQs</a>
 
               <form>
