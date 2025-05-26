@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 import "./globals.css";
 
@@ -16,11 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-      
-      >
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

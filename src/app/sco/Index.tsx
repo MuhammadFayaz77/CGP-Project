@@ -1,16 +1,16 @@
 "use client";
 import Slider from "react-slick";
 import { SetStateAction, useRef, useState } from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 import { ScoArry } from "../Components/Utail/scoArry";
 import ScoCard from "./scoCard";
 function Sco() {
-  const [activeSlide, setActiveSlide] = useState(0); 
+  const [activeSlide, setActiveSlide] = useState(0);
   const sliderRef = useRef<Slider>(null);
   const Slidersettings = {
     dots: true,
-    beforeChange: ( next: SetStateAction<number>) => setActiveSlide(next),
+    beforeChange: (next: SetStateAction<number>) => setActiveSlide(next),
     customPaging: (index: number) => (
       <div
         className={`w-3 h-3    rounded-full transition-all duration-350 ${
@@ -26,8 +26,7 @@ function Sco() {
     autoplay: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-   
-    
+
     responsive: [
       // {
       //   breakpoint: 506, // mobile and below
